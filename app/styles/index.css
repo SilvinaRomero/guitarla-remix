@@ -84,6 +84,6 @@ main {
     transition-property: background-color;
 }
 
-.header .navegacion a:hover{
+.header .navegacion a:hover,.active{
     background-color: var(--primary);
 }
