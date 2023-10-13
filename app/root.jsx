@@ -14,6 +14,7 @@ export function meta() {
         { charset: "utf-8" },
         { title: "GuitarLA - Remix" },
         { name: "viewport", content: "width=device-width,initial-scale=1" },
+        { description:'Venta de guitarras, blog de música y más!'}
     ];
 }
 
