@@ -10,7 +10,7 @@ export function meta({data}){
             title: `GuitarLA - ${data[0].attributes.nombre}`,
         },
         {
-            description:`Gitarras, venta de guitarras, guitarra ${data[0].attributes.nombre}`
+            description:`Guitarras, venta de guitarras, guitarra ${data[0].attributes.nombre}`
         }
 
     ])
