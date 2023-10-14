@@ -7,7 +7,7 @@ export function meta(){
             title: 'GuitarLA - Nosotros',
         },
         {
-            description:'Nuestra misión y visión'
+            description:'GitarLA - Nuestra misión y visión'
         }
 
     ])
