@@ -38,7 +38,7 @@ function Tienda() {
             <h2  className="heading">Nuestra Colección</h2>
 
             {guitarras.length && (
-                <div className="guitaras-grid">
+                <div className="guitarras-grid">
                     {guitarras.map(guitarra => (
                         <Guitarra 
                             key={guitarra?.id}
