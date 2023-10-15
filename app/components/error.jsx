@@ -1,6 +1,7 @@
-import { Link } from "@remix-run/react"
+import { useNavigate } from "@remix-run/react"
 
 function Error({ error }) {
+    const  navigate = useNavigate()
     return (
         <>
             <div className='errores'>
@@ -8,16 +9,13 @@ function Error({ error }) {
                     {error.status}
                 </p>
                 <p className=''>
-                    Ha habido un error: {''}
+                    Lo sentimos, ha habido un error: {''}
                     <br /><span className='error'>
                         {error.statusText}
 
                     </span>
                 </p>
-
-                <Link to='/' className="enlace">Volver al inicio</Link>
-
-
+                <button onClick={() => navigate(-1)} className="enlace">Volver</button>
             </div>
         </>
     )
