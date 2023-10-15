@@ -3,7 +3,7 @@ import React from 'react'
 function Curso({ curso }) {
     const { id, attributes } = curso
     const { titulo, contenido, imagen, publishedAt } = attributes
-    console.log(imagen.data.attributes.url)
+    // console.log(imagen.data.attributes.url)
     return (
         <section className='curso'>
             <style jsx="true">{`
