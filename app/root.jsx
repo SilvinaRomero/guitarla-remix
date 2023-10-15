@@ -15,6 +15,9 @@ import Error from './components/error';
 export function meta() {
     const error = useRouteError();
     if (error?.status === 404) {
+        if (error.statusText === 'Not Found') {
+            error.statusText = 'Contenido no encontrado';
+        }
         return ([
             {
                 title: `GuitarLA - 404`,
