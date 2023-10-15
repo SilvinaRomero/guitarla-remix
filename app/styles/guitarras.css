@@ -62,23 +62,3 @@
     font-weight: 900;
 }
 
-/* enlaces tienen display inline, margin no afecta, poner display:block*/
-.guitarra .enlace {
-    margin-top: 2rem;
-    display: block;
-    text-decoration: none;
-    background-color: black;
-    color: var(--white);
-    padding: .5rem;
-    ;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.4rem;
-    transition-property: background-color;
-    transition-duration: 300ms;
-}
-
-.guitarra .enlace:hover {
-    background-color: var(--primary);
-}
