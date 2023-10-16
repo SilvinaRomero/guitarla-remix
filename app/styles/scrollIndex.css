@@ -15,7 +15,7 @@
     }
     .blog {
         grid-template-columns: repeat(6, 2fr);
-        gap:8rem;
+        gap:4rem;
         padding-bottom: 4rem;
     }
 }
@@ -23,9 +23,12 @@
     width: 35rem;
 }
 .post{
-    width: 28rem;
+    width: 40rem;
 }
-.guitarra .descripcion,.post .resumen {
+.post .resumen {
+    display:none;
+}
+.guitarra .descripcion{
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;

@@ -20,13 +20,16 @@
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 5rem;
+   
+    margin: 0 auto;
+}
+.post{
     align-items: center;
     border-radius: 20px;
     background-color: rgb(250, 250, 250);
-    padding: 20px;
+    padding: 30px;
     box-shadow: 5px 5px 5px rgb(245, 245, 245);
     /* max-width: 70rem; */
-    margin: 0 auto;
 }
 
 .post .contenido{

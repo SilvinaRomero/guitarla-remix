@@ -8,7 +8,7 @@ import Curso from "../components/curso"
 import stylesGuitarras from '../styles/guitarras.css'
 import stylesPosts from '~/styles/blog.css'
 import stylesCurso from '../styles/curso.css'
-import stylesDemo from '../styles/demo.css'
+import stylesScroll from '../styles/scrollIndex.css'
 
 export function meta() {
 
@@ -30,7 +30,7 @@ export function links() {
         },
         {
             rel: 'stylesheet',
-            href: stylesDemo
+            href: stylesScroll
         }
     ]
 }
