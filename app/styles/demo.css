@@ -1,0 +1,33 @@
+.contenedor{
+    width: 90%;
+}
+
+.guitarras-grid,.blog{
+    display: grid;
+    grid-template-columns: 3fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+@media(min-width:768px) {
+    .guitarras-grid {
+        grid-template-columns: repeat(12, 2fr);
+        padding-bottom: 4rem;
+    }
+    .blog {
+        grid-template-columns: repeat(6, 2fr);
+        gap:8rem;
+        padding-bottom: 4rem;
+    }
+}
+.guitarra {
+    width: 35rem;
+}
+.post{
+    width: 28rem;
+}
+.guitarra .descripcion,.post .resumen {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
